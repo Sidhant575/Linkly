@@ -65,15 +65,9 @@ export default function Home() {
           </p>
 
           <div className="flex flex-col sm:flex-row gap-3">
-            <Link href="/generate">
+            <Link href="/shorten">
               <button className="w-full sm:w-auto bg-gray-900 rounded-lg shadow-lg px-6 py-3 font-bold text-white">
                 Try Now
-              </button>
-            </Link>
-
-            <Link href="/github">
-              <button className="w-full sm:w-auto bg-gray-900 rounded-lg shadow-lg px-6 py-3 font-bold text-white">
-                GitHub
               </button>
             </Link>
           </div>
